@@ -33,6 +33,6 @@ app.delete("/users/:id", (req, res) => {
     res.json({ success: true });
 });
 
-app.listen(3001, () => {
-    console.log("API running on http://localhost:3001");
+app.listen(3000, () => {
+    console.log(" http://localhost:3000");
 });
